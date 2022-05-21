@@ -1,0 +1,76 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body
+{
+    background-color: black;
+}
+
+.image
+{
+    width: 100%;
+    height: 70%;
+
+    object-fit:cover;
+}
+
+.header
+{
+    cursor: pointer;
+    transition: ease 0.5s;
+    font-size: small;
+}
+
+.header:hover
+{
+    color:white;
+}
+
+.icon
+{
+    opacity: 0.5;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.icon:hover
+{
+    opacity: 1.0;
+}
+
+#slide
+{
+    background: rgba(0, 0, 0, 0.6) url("images/banner/mount.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+
+    padding: 15%;
+
+    text-align: center;
+}
+
+#mainTxt
+{
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+
+    transition: opacity 500ms linear;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-top: 2%; margin-bottom: 2%;
+    margin-right: auto;
+    width: 25%;
+
+    align-content: center;
+}
