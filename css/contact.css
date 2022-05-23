@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+#mail-btn
+{
+    margin-top: 5%;
+    font-size: 200%;
+    color:rgb(192, 192, 192);
+
+    transition: color ease 500ms;
+
+    margin-left: 20%;
+}
+
+#mail-btn:hover
+{
+    color:white
+}
+
+#contact-bg
+{
+    background: rgba(0, 0, 0, 0.6) url("../images/banner/snow-forest.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+    transition: all linear 60s;
+
+    padding: 7%;
+    padding-bottom: 15%;
+
+    margin-top: 1%;
+
+    color:white;
+}
